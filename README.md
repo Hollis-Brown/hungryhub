@@ -1,5 +1,5 @@
 # HungryHub-Frontend
- A repository for building a food delivery application starting with the frontend components. Designed to be easily scalable with future integration of backend functionality.
+ A repository for building a food delivery application. Designed to be easily scalable with future integration of full backend functionality.
 
 [HungryHub MVP Document](https://docs.google.com/document/d/1l8WN_G7odJ7Cz0RwbfGksOsmRmIIVcBCeYqAXfrIEE4/edit?usp=sharing)
 
@@ -7,8 +7,23 @@
 
 ## TODO
 
-- [] Create file structure
-- [] Add routing
-- [] Components
-- [] Pages
-- [] Scaffold basic UI
+- Project Research
+    - [x] Plan out the basic structure of the delivery app
+
+- MVP (Minimum Viable Product)
+    - [x] Create an MVP
+    - [x] Determine general App functionality
+    - [x] Identify pages vs components etc.
+
+- Dev Log
+    - [x] Create Dev Log
+
+- Backend:
+    - [x] Setup npm packages, folder structure, and a preliminary server 
+    - [x] Test out server to see if it starts and can make requests
+    - [x] Put backend part of project on hold until later on in Mod 4
+
+- Frontend: 
+    - Create simple wire frames for the frontend UI 
+    - Build UI prototype in Figma
+    - Setup npm packages, folder structure, database, and react router
