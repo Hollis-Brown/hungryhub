@@ -1,4 +1,4 @@
-# HungryHub-Frontend
+# HungryHub
  A repository for building a food delivery application. Designed to be easily scalable with future integration of full backend functionality.
 
 [HungryHub MVP Document](https://docs.google.com/document/d/1l8WN_G7odJ7Cz0RwbfGksOsmRmIIVcBCeYqAXfrIEE4/edit?usp=sharing)
