@@ -1,6 +1,9 @@
 import express, { Request, Response } from "express";
 import cors from "cors";
 import "dotenv/config";
+import mongoose from "mongoose";
+
+mongoose.connect(process.env.MONGODB_CONNECTION_STRING as string).then(()=> console.log("Connected to database!")) // A debugging bit of code to make sure the app is connected to the database and if it isn't it will crash.
 
 const app = express();
 app.use(express.json()) // Adds the middleware to automatically convert the body to any API server to json to avoid doing so for each request 

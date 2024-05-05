@@ -24,6 +24,7 @@
     - [x] Put backend part of project on hold until later on in Mod 4
 
 - Frontend: 
+    - [x] Setup npm packages, folder structure, database, and react router
+    - Setup layout and header
     - Create simple wire frames for the frontend UI 
     - Build UI prototype in Figma
-    - Setup npm packages, folder structure, database, and react router
