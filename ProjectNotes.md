@@ -1,6 +1,6 @@
 # HungryHub Project Notes
 
-## Backend Setup 
+## Backend Setup: Folder Structure 
 - Open terminal
     - Type `npm init -y`
         - this will install the package.json file so that different npm packages can be installed. 
@@ -37,14 +37,10 @@
 - Open up a browser tab
     - Type `localhost:7000/test` and below are the results
     ![Example](https://i.imgur.com/nFjGMFx.png)
-    - It proves that the backend server has started and that I make requests.
+    - It proves that the backend server has started and that I can make requests.
 
-## Frontend Setup
-- Go to the [Shadcn website in the Docs section to install and configure Vite](https://ui.shadcn.com/docs/installation/vite)
-    - Follow the directions there
-
-## Database Setup
-- Go to the [MonogoDB website to install a database](https://cloud.mongodb.com/v2/66340f4fa3c74170c37f989b#/overview)
+## Backend Setup: Database
+- Go to the [MongoDB website to install a database](https://cloud.mongodb.com/v2/66340f4fa3c74170c37f989b#/overview)
     - Click `database` button on the left hand menu
     - Click the free tier option
     - Choose the region which is closer to you for the fastest connection
@@ -61,7 +57,7 @@
         - `Select your driver and version` option
         - And a `Install your driver` option
     - Copy the connection string
-    - Create a `.env` file 
+    - Create an `.env` file 
         - Create a new property
         - Paste the database connection string into this file.
         - Retrieve your password saved from earlier.
@@ -81,20 +77,59 @@
         - Go to the terminal and type `npm run dev`
         - It should tell you if you nodemon has started, the server has started, and you're connected to the database!
 
+## Frontend Setup: Folder Structure
+- Go to the [Shadcn website in the Docs section to install and configure Vite](https://ui.shadcn.com/docs/installation/vite)
+    - Follow the directions there
+    - Create `global.css` file
+        - Add required content from Shadcn documentation
+
 ## React Router Setup
 - Open terminal
     - Type `npm i react-router-dom`
+    - Create `AppRoutes.tsx` file
     - Add code to the `main.tsx` and `AppRoutes.tsx` files
         - A trick to copy a line of code onto the line beneath it is press alt + shift + arrow down.
     - Go to the browser tab where the app is and type `localhost:5173/user-profile`
         - It should go to a page where it says `USER PROFILE PAGE`
     - If you refer to the third route component in the `AppRoutes.tsx` file its job is to route any urls that aren't specified as `http://localhost:5173/homepage` or `localhost:5173/user-profile` to the homepage only its url will be `http://localhost:5173/`.
 
-## Project UI
+## Project UI Buildout
 - Delete these three files
     - `App.css`
     - `App.tsx`
     - `index.css`
+- Keep `main.tsx`
 - Go to `main.tsx` file
     - Change the import for the css to the one I'm using
+- Created Main Files
+    - `global.css`
+    - `main.tsx`
+    - `AppRoutes.tsx`
+- Created folders
+    - `src`
+        - Contains all the content of my app
+    - `components`
+        - Contains the reusable components of my app
+    - `ui`
+        - Contains the Shadcn components of my app
+    - `layouts`
+        - Contains the content that will display on (almost) every page of my app
+    - `pages`
+        - Contains the pages of my app
+- Create Components
+    - `Header.tsx`
+    - `MainNav.tsx`
+    - `MobileNav.tsx`
+    - `Hero.tsx`
+- Install Shadcn components:
+    - `button.tsx`
+    - `sheet.tsx`
+    - `separator`
+- Add images to `assets` folder
+    - `appDownload.png`
+    - `hero.png`
+    - `landing.png`
     
+
+## Auth0 
+    - 
