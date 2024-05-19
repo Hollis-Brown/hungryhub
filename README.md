@@ -28,6 +28,6 @@
     - Setup layout and header
     - Create simple wire frames for the frontend UI 
     - Build UI prototype in Figma
-
+<hr>
 # HungryHub Wireframe 
 ![Alt Text](https://i.imgur.com/aqa8Yeh.png)
