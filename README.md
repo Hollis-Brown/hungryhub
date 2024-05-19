@@ -30,4 +30,4 @@
     - Build UI prototype in Figma
 
 # HungryHub Wireframe 
-![HungryHub Wireframe](blob:https://imgur.com/328ee850-3778-46ed-9a0b-81012d7007d8)
+![Alt Text](https://i.imgur.com/aqa8Yeh.png)
